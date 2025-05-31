@@ -72,3 +72,7 @@ For a quick visual guide, refer to the screenshot below:
 Don't forget to visit [BugBountyzip](https://github.com/BugBountyzip) for more tools and resources.
 
 Happy hunting! 🎯
+
+### Fork
+The only modification in this fork is the output directory.
+The outputs are now in the courent working directory.
