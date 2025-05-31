@@ -65,7 +65,7 @@ Domain() {
     fi
     
     # Define the output file name based on the domain
-    output_file="output/domain.$req.txt"
+    output_file=`pwd`"/"$req"_domain.txt"
     
     # Save the results to the output file
     echo "$results" > "$output_file"
@@ -110,7 +110,7 @@ Organization() {
     fi
     
     # Define the output file name based on the organization name
-    output_file="output/org.$req.txt"
+    output_file=`pwd`"/"$req"_org.txt"
     
     # Save the results to the output file
     echo "$results" > "$output_file"
